@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Mobiloitte Project Management System
 
 A full-stack, responsive Project Management System built with Next.js, Node.js/Express, and MongoDB.
@@ -155,3 +156,6 @@ npm run dev
 ## License
 
 This project is licensed under the MIT License.
+=======
+# App-Web
+>>>>>>> 2ca3db397e0cddd5fa601b70db98d2491689889b
