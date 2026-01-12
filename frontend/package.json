@@ -1,0 +1,22 @@
+{
+  "name": "user-login-dashboard-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for User Login Dashboard",
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start -p 3001",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "15.5.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "socket.io-client": "4.8.1",
+    "axios": "1.12.2"
+  },
+  "devDependencies": {
+    "eslint": "8.45.0",
+    "eslint-config-next": "15.5.3"
+  }
+}

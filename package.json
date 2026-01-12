@@ -1,0 +1,16 @@
+{
+  "name": "mobiloitte-project-management",
+  "version": "1.0.0",
+  "description": "Project Management System for Mobiloitte",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "setup": "./setup.sh",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm run dev",
+    "build": "cd backend && npm run build && cd ../frontend && npm run build"
+  },
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}

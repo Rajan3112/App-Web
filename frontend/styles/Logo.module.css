@@ -1,0 +1,27 @@
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  background: linear-gradient(135deg, #e74c3c 0%, #3498db 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+}
+
+.letter {
+  color: #e74c3c;
+}
+
+.rest {
+  color: #3498db;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    font-size: 1.8rem;
+  }
+}
